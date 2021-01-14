@@ -1,0 +1,224 @@
+/*----------
+    Name: Penguin Commerce
+    Author: sp simon
+    Version: 1.0.0
+    Description: Penguin Commerce Owned Project Theme Styles. 
+    Tags: 
+----------------------*/
+
+body, html, p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 500;
+}
+header{
+    padding: 42px 0;
+    background-color: #FFFBF0;
+}
+section{
+    margin-top: 50px;
+}
+
+/* Header Section Styles */
+/* ----------------------------- */
+.logo{
+    width: 300px;
+}
+.logo-ft{
+    width: 200px;
+}
+/* .bg-top{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+} */
+.menu-bar .nav-item .menu-item{
+    margin: 0 30px;
+    font-size: 18px;
+    color: #363958;
+    font-weight: 700;
+    opacity: 80%;
+}
+.menu-bar .nav-item a:hover{
+    font-size: 18px;
+    color: #a8c12b;
+    border-bottom: 1.5px solid #FABE4C;
+    opacity: 100%;
+}
+.header-text h1{
+    color: #FABE4C;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    padding-top: 50px;
+    font-weight: 700;
+    
+}
+.header-text h2{
+    color: #363958;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.btn_touch{
+ text-decoration: none;
+ color: #FFFBF0;
+ background-image: linear-gradient(to right bottom, #9fb814, #9ab214, #95ac14, #90a713, #8ba113);
+ font-size: 15px;
+ padding: 20px 35px;
+ border-radius: 10px;
+ text-transform: uppercase;
+ opacity: 90%;
+}
+.btn_touch:hover{
+    color: #FFFBF0;
+    background-color: #a9c92c;
+    opacity: 100%;
+}
+
+/* Woman And Man Jacket Section Styles */
+/* ------------------------------------------- */
+.my-card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px #f7f6f6;
+    margin: 0 4px;
+}
+.my-card img{
+    margin: 18px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.section-title{
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+.cust-card-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.cust-card-price{
+    padding: 10px;
+    font-size: 46px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #FABE4C;
+    letter-spacing: 3px;
+}
+
+/* Exclusive Section Styles */
+/* ----------------------------------- */
+.exclusive-content .exe-div{
+    width: 500px;
+    padding: 20px 20px;
+    margin: 25px 0;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #f3f3f3;
+}
+.exclusive-content .exe-icon img{
+    width: 100px;
+}
+.exclusive-content .exe-icon{
+    margin-right: 15px;
+}
+.exclusive-content .exe-detail h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    opacity: 90%;
+}
+.exclusive-content .exe-detail p{
+    font-size: 16px;
+    color: rgb(163, 158, 158);
+}
+.exe-banner img{
+    margin-top: 80px;
+}
+
+/* Categories Section Styles */
+/* ----------------------------------- */
+.cat-title{
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid rgb(228, 224, 224);
+    padding-bottom: 10px;
+}
+.categories-content .cat-box{
+    border: 1px solid rgb(228, 224, 224);
+    padding: 5px;
+}
+.cat-box-inner{
+    border-bottom: 1px solid rgb(228, 224, 224);
+    padding: 6px 0;
+}
+
+/* Footer Section Styles */
+/* ----------------------------------- */
+.bg-footer{
+    background-color: #FFFBF0;
+}
+footer{
+    opacity: 80%;
+}
+.ft-iteams img{
+    margin-bottom: 15px;
+}
+.ft-iteams .ft-title{
+    font-size: 16px;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.ft-subscribe input{
+    color: rgb(129, 128, 128);
+    padding: 8px 15px;
+    border: 1px solid rgb(221, 214, 214);
+    width: 70%;
+    opacity: 80%;
+    outline: none;
+}
+.ft-subscribe input:focus{
+    outline: 1px solid #a9c92c;
+    background: #ffffff;
+    padding: 8px 15px;
+    border: none;
+  }
+.ft-subscribe .icon{
+    font-size: 42px;
+    color: #fff;
+    background-color: #b1d61c;
+    border: 1px solid #a9c92c;
+    padding: 8px 15px;
+    margin-bottom: -10px;
+    margin-left: -5px;
+}
+.ft-iteams .ft-info .crle, a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: dimgrey;
+}
+.ft-iteams .ft-info .crle, a:hover{
+    color: #a4bc46;
+}
+.ft-iteams .ft-help a{
+    color: #a4bc46;
+}
+footer p{
+    font-size: 12px;
+}
+.ft-2{letter-spacing: 3px;}
+

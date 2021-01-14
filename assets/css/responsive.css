@@ -1,0 +1,155 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 558px) {
+    /*  ------*/
+    .exe-banner{
+        width: 380px;
+        margin-left: -50px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    /*  ----*/
+    .exe-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .exclusive-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .exe-banner{
+        width: 380px;
+        margin-left: -50px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    /* head */
+    .header-banner img{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    /*  -----*/
+    .section-title{
+        text-align: center;
+    }
+    .my-card{
+    margin: 20px 0;
+    }
+    /*  -------*/
+    .cat-box{
+        margin: 40px 0;
+    }
+    .exe-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-desc{
+        width: 200px;
+    }
+    .download-theme{
+        float: right;
+        margin-top: -398px;
+    }
+    /*  --------*/
+    .exe-banner{
+        width: 100%;
+        margin-left: -120px;
+        
+    }
+    /*  */
+    .ft-iteams{
+        margin-bottom: 30px;
+    }
+
+}
+
+/* ---------------------------------------- */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    /* For Header Section Layout */
+    .header-text h1{
+        font-size: 40px;
+    }
+    .header-text h2{
+        font-size: 45px;
+    }
+    .header-banner img{
+        max-width: 100%;
+    }
+    /* For Exclucive Section Layout */
+    .exclusive-content .exe-div{
+        width: 430px;
+        padding: 5px 5px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #f3f3f3;
+    }
+    /* For Categories Section Layout */
+    .cte-link h5, p{
+        font-size: 12px;
+    }
+    .cat-box img{
+        width: 80%;
+    }
+    .img-desc h4{
+        font-size: 14px;
+    }
+    /*-------*/
+    .download-theme img{
+        width: auto;
+        height: 350px;
+    }
+
+}
+
+/* -------------------------------------------------- */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    /* ------Header*/
+    .header-text h1{
+        font-size: 50px;
+        letter-spacing: 4px;
+        padding-top: 50px;
+        font-weight: 700;
+        
+    }
+    .header-text h2{
+        font-size: 50px;
+        letter-spacing: 4px;
+        font-weight: 700;
+    }
+    /* For Shopping Card Section Layout */
+    .btn_touch{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .cust-card-price{
+        font-size: 36px;
+    }
+    /* For Exclucive Section Layout */
+    .exclusive-content .exe-banner img{
+        max-width: 100%;
+        margin-left: 80px;
+        margin-top: 150px;
+    }
+    /* For Categories Section Layout */
+    .cte-link h5, p{
+        font-size: 12px;
+    }
+    .cat-box img{
+        max-width: 100%;
+    }
+
+}
+
+
+
